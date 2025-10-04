@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ConnectionPooling">
+  <Resource auth="Container" driverClassName="org.postgresql.Driver" factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory" maxIdle="10" maxTotal="20" maxWaitMillis="10000" name="jdbc/postgres" password="postgres" testOnBorrow="true" type="javax.sql.DataSource" url="jdbc:postgresql://localhost:5432/postgres" username="postgres" validationQuery="SELECT 1"/>
+</Context>
