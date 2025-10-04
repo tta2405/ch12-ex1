@@ -1,4 +1,4 @@
-FROM tomcat:10.1-jdk17-temurin
+FROM tomcat:10.1-jdk21-temurin
 
 # Xóa web mặc định
 RUN rm -rf /usr/local/tomcat/webapps/*
